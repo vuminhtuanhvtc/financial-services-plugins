@@ -73,27 +73,48 @@ Bao gồm: valuation benchmarks (P/E, P/B, EV/EBITDA) theo ngành, và phân tí
 
 ---
 
-### 📝 Files đã bổ sung nội dung (3 files)
+### 📝 Files đã bổ sung nội dung (16 files across 5 plugins)
 
-#### 5. [`comps-analysis/SKILL.md`](financial-analysis/skills/comps-analysis/SKILL.md)
+#### Financial Analysis (P0)
 
-- Thêm **Vietnam Market Exception** vào Data Source Priority — tự động chuyển sang nguồn VN khi phân tích doanh nghiệp HOSE/HNX/UPCOM
-- Hướng dẫn xử lý khi **ít hơn 3 pure-play peers** trong 1 ngành VN → mở rộng sang regional peers (Thái Lan, Indonesia, Philippines) với flag rõ ràng
-- Cross-reference tới 3 reference files VN
+| # | File | Thay đổi |
+|---|------|---------|
+| 5 | [`comps-analysis/SKILL.md`](financial-analysis/skills/comps-analysis/SKILL.md) | VN Market Exception, peer scarcity guidance, P/B emphasis |
+| 6 | [`dcf-model/SKILL.md`](financial-analysis/skills/dcf-model/SKILL.md) | VN WACC params, nominal/real terminal growth, VN validation |
+| 7 | [`3-statements/SKILL.md`](financial-analysis/skills/3-statements/SKILL.md) | VAS adjustments, filing sources, BHXH in OpEx |
+| 8 | [`competitive-analysis/SKILL.md`](financial-analysis/skills/competitive-analysis/SKILL.md) | VN source hierarchy, sector metrics, SOE flagging |
+| 9 | [`lbo-model/SKILL.md`](financial-analysis/skills/lbo-model/SKILL.md) | Bank-centric debt, 20% CIT, leverage 3-4x max |
 
-#### 6. [`dcf-model/SKILL.md`](financial-analysis/skills/dcf-model/SKILL.md)
+#### Investment Banking (P1)
 
-- **Vietnam WACC Parameters:** Rf = TPCP 10 năm (3.0-4.5%), ERP = 8-9%, Beta từ median 3+ nguồn
-- **WACC ranges thực tế:** Large cap 10-12%, Mid cap 12-15%, Small cap 15-18%, SOE 9-11%
-- **Terminal growth logic:** Phân biệt rõ nominal (4-6%) vs real (2-4%) — phải consistent với cơ sở dòng tiền
-- **Validation rules VN:** Tax 20%, NOL carry 5 năm, tiền gửi ngân hàng trong equity bridge
+| # | File | Thay đổi |
+|---|------|---------|
+| 10 | [`merger-model/SKILL.md`](investment-banking/skills/merger-model/SKILL.md) | Goodwill amortization VAS, LNST/CP, SSC/SBV approval |
+| 11 | [`cim-builder/SKILL.md`](investment-banking/skills/cim-builder/SKILL.md) | QSDĐ section, VN market sizing (GSO/VCCI), BCTC reference |
 
-#### 7. [`3-statements/SKILL.md`](financial-analysis/skills/3-statements/SKILL.md)
+#### Equity Research (P1)
 
-- Filing sources VN thay thế SEC EDGAR
-- 6 khác biệt VAS trọng yếu ảnh hưởng model (goodwill, leases, R&D, revenue recognition, NOL, CIT)
-- Currency/units chuẩn: tỷ VNĐ, đồng/CP
-- BHXH 21.5% trong labor cost projections
+| # | File | Thay đổi |
+|---|------|---------|
+| 12 | [`earnings-analysis/SKILL.md`](equity-research/skills/earnings-analysis/SKILL.md) | ĐHĐCĐ plan thay consensus, VN filing timing, LNST metrics |
+| 13 | [`morning-note/SKILL.md`](equity-research/skills/morning-note/SKILL.md) | VN-Index, khối ngoại, ĐHĐCĐ catalysts, VN trading hours |
+
+#### Private Equity (P2)
+
+| # | File | Thay đổi |
+|---|------|---------|
+| 14 | [`deal-screening/SKILL.md`](private-equity/skills/deal-screening/SKILL.md) | VNĐ criteria, VN PE players, FOL check |
+| 15 | [`dd-checklist/SKILL.md`](private-equity/skills/dd-checklist/SKILL.md) | QSDĐ, BHXH, EIA, tax compliance, labor code |
+| 16 | [`ic-memo/SKILL.md`](private-equity/skills/ic-memo/SKILL.md) | Regulatory/FDI risk, governance upgrade, FX risk |
+| 17 | [`returns-analysis/SKILL.md`](private-equity/skills/returns-analysis/SKILL.md) | CGT 0.1%, FX impact, VN IRR benchmarks |
+
+#### Wealth Management (P2)
+
+| # | File | Thay đổi |
+|---|------|---------|
+| 18 | [`financial-plan/SKILL.md`](wealth-management/skills/financial-plan/SKILL.md) | BHXH replaces Social Security, VN products, estate tax |
+| 19 | [`tax-loss-harvesting/SKILL.md`](wealth-management/skills/tax-loss-harvesting/SKILL.md) | No wash sale rule, 0.1% CGT, limited ETF swaps |
+| 20 | [`portfolio-rebalance/SKILL.md`](wealth-management/skills/portfolio-rebalance/SKILL.md) | VN asset classes, VN-Index benchmark, gold/deposits |
 
 ---
 
@@ -117,12 +138,10 @@ Repository này hoạt động giống hệt bản gốc — chỉ cần clone v
 
 ## Roadmap
 
-Phiên bản hiện tại bổ sung cho **Financial Analysis** (plugin core). Các đề xuất cho plugins còn lại đã được document tại [implementation_plan.md](https://github.com/vuminhtuanhvtc/financial-services-plugins/wiki) — bao gồm:
-
-- [ ] **Investment Banking:** Merger model (goodwill amortization VAS, SSC approval), CIM builder (QSDĐ section), Process letter (Luật Cạnh tranh)
-- [ ] **Equity Research:** Earnings analysis (ĐHĐCĐ plan thay consensus), Morning note (VN-Index, khối ngoại), Screen (Simplize/CafeF screener)
-- [ ] **Private Equity:** DD checklist (QSDĐ, BHXH, EIA), IC memo (regulatory risk VN), Returns (CGT 0.1%)
-- [ ] **Wealth Management:** Financial plan (BHXH thay Social Security), Tax-loss harvesting (không có wash sale rule), Portfolio (VN-Index benchmark)
+- [x] **P0 — Financial Analysis Core:** Data sources, VAS, WACC, 3-statements, comps, DCF, sectors
+- [x] **P1 — Investment Banking & Equity Research:** Merger model, CIM, earnings analysis, morning note, competitive analysis, LBO
+- [x] **P2 — Private Equity & Wealth Management:** Deal screening, DD, IC memo, returns, financial plan, TLH, portfolio rebalance
+- [ ] **P3 — Partner Plugins:** LSEG (VN RIC codes, IBES coverage), S&P Global (VN tear sheets)
 
 ---
 
