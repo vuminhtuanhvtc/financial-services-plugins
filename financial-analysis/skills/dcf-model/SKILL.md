@@ -1209,3 +1209,38 @@ Before delivering DCF model:
 - Terminal growth < WACC
 - Tax rate 21-28%
 - File naming: `[Ticker]_DCF_Model_[Date].xlsx`
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When building a DCF for Vietnamese companies (HOSE/HNX/UPCOM), apply the following adjustments. Reference: [vietnam-data-sources.md](../references/vietnam-data-sources.md), [vietnam-tax-legal.md](../references/vietnam-tax-legal.md), [vietnam-sectors/SKILL.md](../vietnam-sectors/SKILL.md).
+
+### Vietnam WACC Parameters
+
+| Parameter | US Default | Vietnam Adjustment |
+|-----------|-----------|-------------------|
+| Risk-free rate (Rf) | US 10Y Treasury | VN Government Bond 10Y (TPCP). Source: HNX bond auction, SBV. Range: 3.0-4.5% |
+| Beta (β) | Yahoo Finance, Bloomberg | Use **median of 3+ sources** (e.g. Simplize, Vietstock, CTCK reports). VN beta varies wildly by provider |
+| Equity Risk Premium | 5.0-5.5% (US ERP) | 8.0-9.0% = US ERP + VN Country Risk Premium (2.5-3.5%, Damodaran) |
+| Tax rate | 21% US Federal | 20% VN CIT standard. Check for incentive rates (10-17% in industrial parks) |
+| Terminal growth | 2-3% | ⚠️ Must match cash flow basis: if FCF is **nominal VND** (most common) → g = 4-6% nominal; if FCF is **real VND** → g = 2-4% real. g must be < WACC |
+| Currency | USD | VND throughout — do NOT mix currencies |
+
+**WACC Typical Ranges (VN):**
+| Company Type | WACC Range |
+|-------------|-----------|
+| Large cap, stable (VN30) | 10-12% |
+| Mid cap, growth | 12-15% |
+| Small cap, high risk | 15-18% |
+| SOE (state-owned) | 9-11% (lower beta) |
+
+### Vietnam Validation Rules
+
+In addition to standard validation, check:
+- Tax rate: **20%** standard (not 21-28% US range). Flag if company has incentive rates.
+- Terminal growth: Must be < WACC. **Match to cash flow basis:** nominal FCF → nominal g (4-6%); real FCF → real g (2-4%). Most VN models use nominal VND.
+- Cash & deposits: VN companies often hold very large bank deposits (some >50% of assets) — include in equity bridge.
+- Debt: Many VN blue-chips have zero or very low debt — WACC may equal Cost of Equity.
+- NOL carry: Vietnam limits carry to **5 years** (vs unlimited US) — model expiring NOLs.
+- File naming: `[Ticker]_DCF_Model_[Date].xlsx` (same convention).

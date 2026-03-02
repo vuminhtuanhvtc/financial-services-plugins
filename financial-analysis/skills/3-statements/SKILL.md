@@ -366,3 +366,34 @@ When Master Status shows errors:
 3. Navigate to source tab to investigate
 4. Fix the underlying issue
 5. Return to Checks tab to verify resolution
+
+---
+
+## 🇻🇳 Vietnam (VAS) Adjustments
+
+When completing 3-statement models for Vietnamese companies, apply these adjustments. Full reference: [vas-accounting.md](../references/vas-accounting.md), [vietnam-tax-legal.md](../references/vietnam-tax-legal.md).
+
+### Filing Sources (replaces SEC EDGAR)
+- HOSE: hsx.vn → Công bố thông tin → BCTC
+- HNX: hnx.vn → Tin công ty → BCTC
+- CafeF: cafef.vn/tai-chinh-doanh-nghiep/{TICKER}
+- See [vietnam-data-sources.md](../references/vietnam-data-sources.md) for full list.
+
+### Key VAS Differences Affecting Models
+- **Goodwill:** Amortized ≤10 years (US: impairment only) → NI impact after M&A
+- **Leases:** Off-balance sheet under VAS (US ASC 842: on-BS) → debt metrics differ
+- **R&D:** Can be capitalized in VAS → EBITDA may appear higher
+- **Revenue (Real Estate):** Recognized at handover under VAS, not % completion → very lumpy
+- **NOL carry:** 5-year limit in VN (vs unlimited US) → model expiring losses
+- **CIT rate:** 20% standard (not 21% US). Some companies have 10-17% incentive rates.
+
+### Tab Names
+Keep standard IS / BS / CF tab names — VAS equivalents (KQKD / CDKT / LCTT) have identical structure and meaning.
+
+### Currency & Units
+- All values in VND, standard unit: tỷ đồng (billion VND)
+- Number format: `#,##0` (keep consistent)
+- Per-share: đồng/CP (VND/share)
+
+### Social Insurance (BHXH) Impact on OpEx
+Employer contributions: 21.5% of salary (BHXH 17.5% + BHYT 3% + BHTN 1%). Cap at 20× base salary. Include in labor cost projections.

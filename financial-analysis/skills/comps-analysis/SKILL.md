@@ -32,6 +32,18 @@ description: |
 
 **Why this matters:** MCP sources provide verified, institutional-grade data with proper citations. Web search results can be outdated, inaccurate, or unreliable for financial analysis.
 
+### 🇻🇳 Vietnam Market Exception
+
+When analyzing **Vietnamese companies** (HOSE/HNX/UPCOM listed), MCP sources and SEC EDGAR do not apply. Instead follow the Vietnam-specific data source hierarchy documented in [vietnam-data-sources.md](../references/vietnam-data-sources.md). Primary free sources: HOSE/HNX official filings, CafeF, Vietstock, Simplize. Also reference:
+- [VAS Accounting](../references/vas-accounting.md) — for VAS vs US GAAP differences
+- [Vietnam Tax & Legal](../references/vietnam-tax-legal.md) — for tax rates, FOL, regulations
+- [Vietnam Sectors](../vietnam-sectors/SKILL.md) — for sector-specific KPIs and peer groups
+
+**When fewer than 3 pure-play VN peers exist** in a sector:
+1. First try broadening scope within VN (adjacent segments, different cap sizes)
+2. If still <3, expand to **regional peers** (Thailand, Indonesia, Philippines) — note currency conversion, market structure differences, and regulatory context gaps
+3. Always flag in the comp table which peers are domestic vs regional
+
 ---
 
 ## Overview
