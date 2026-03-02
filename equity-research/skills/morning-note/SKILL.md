@@ -84,3 +84,39 @@ If a coverage company reported, provide a quick reaction:
 - Distinguish between actionable events (earnings, M&A) and noise (minor analyst notes, non-events)
 - Time-stamp your takes — if you're writing at 6am, note that pre-market may change by open
 - If you're wrong, own it in the next morning note — credibility matters more than being right every time
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When writing morning notes for Vietnam coverage:
+
+### Market Context (replace US market section)
+- **Indices:** VN-Index (HOSE), HNX-Index (HNX), UPCOM-Index
+- **Khối ngoại (Foreign flows):** Net buy/sell value — major signal for VN market sentiment. Track daily.
+- **SBV policy:** Interest rate decisions, credit growth quota adjustments, FX intervention
+- **No overnight futures:** VN market has no futures on VN-Index. Use US/Asia overnight as directional sentiment only.
+- **Trading hours:** ATO 9:00-9:15, continuous 9:15-11:30, lunch break, continuous 13:00-14:30, ATC 14:30-14:45.
+
+### Morning Note Format (VN)
+Replace sector ETFs and US pre-market with:
+- **VN-Index technical:** Support/resistance, volume, breadth (advances vs declines)
+- **Khối ngoại:** Net buy/sell yesterday, top foreign-traded stocks
+- **VN macro:** CPI, trade balance, FDI inflows, SBV announcements
+- **Sector rotation:** Which sectors led/lagged yesterday (banking, RE, steel, tech)
+- **ĐHĐCĐ season:** During Q1-Q2, note upcoming AGMs with dividend/bonus share proposals
+
+### Quick Takes on Earnings (VN)
+| Metric | Kế hoạch ĐHĐCĐ | Actual | vs Plan |
+|--------|----------------|--------|---------|
+| Doanh thu | | | |
+| LNST | | | |
+| [KPI ngành] | | | |
+
+### Key VN Catalysts to Monitor
+- ĐHĐCĐ resolutions (dividends, capital increase, new projects)
+- SCIC divestment announcements
+- FOL room changes (nới room)
+- SBV credit growth quota assignments
+- Government infrastructure/regulatory policy changes
+

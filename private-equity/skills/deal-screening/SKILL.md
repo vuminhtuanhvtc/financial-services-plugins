@@ -55,3 +55,16 @@ One-page screening memo suitable for sharing with partners or an IC quick screen
 - If financials seem inconsistent or incomplete, flag it explicitly
 - Ask for the fund's criteria upfront if this is the first screening
 - Save screening criteria in memory for future deals once confirmed
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When screening Vietnamese deals:
+- **Currency:** Revenue/EBITDA in tỷ VNĐ. Typical PE-investable range: revenue 500-5,000 tỷ, EBITDA 50-500 tỷ.
+- **Sectors:** Map to VN sector frameworks. High-interest PE sectors in VN: consumer, healthcare, education, fintech, industrial manufacturing.
+- **Ownership:** Flag DNNN (SOE) vs family-controlled vs listed. Family companies: founder retention is critical for deal success.
+- **FOL check:** If fund is foreign, verify FOL status — 49% default, 30% banks, some sectors restricted.
+- **Data sources:** CafeF for listed financials, CTCK IB teams for unlisted deal flow. See [vietnam-data-sources.md](../../financial-analysis/skills/references/vietnam-data-sources.md).
+- **Key VN PE players:** VinaCapital, Mekong Capital, Dragon Capital, KKR Vietnam, Warburg Pincus VN, TPG VN, Quadria Capital.
+

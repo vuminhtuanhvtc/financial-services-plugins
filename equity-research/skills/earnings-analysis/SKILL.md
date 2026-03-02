@@ -226,3 +226,31 @@ Examples of good/bad headlines, tips for success, common mistakes to avoid, and 
 
 **Optional:**
 - XLS skill for model updates (not required for earnings updates)
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When analyzing earnings for Vietnamese companies:
+
+### Beat/Miss Framework
+- **No IBES consensus:** VN lacks structured sell-side consensus like IBES. Instead:
+  - Compare actual results vs **kế hoạch ĐHĐCĐ** (Annual General Meeting plan) — this is the primary "consensus" in VN.
+  - Compare vs CTCK estimates (SSI, VNDirect, HSC research reports) where available.
+  - Compare vs Simplize consensus (free, limited coverage).
+- **Format:** `Actual vs ĐHĐCĐ Plan: Revenue 5,200 tỷ vs plan 5,000 tỷ (+4% beat)`
+
+### Filing Timing
+- VN quarterly reports published **20-30 days** after quarter end (vs same-day 8-K in US).
+- Annual audited reports within **90 days** of FY end.
+- Earnings calls: Rare in VN. Most companies only hold ĐHĐCĐ once per year.
+- **Forward guidance:** Not standard practice. Use ĐHĐCĐ annual plan as the closest equivalent.
+
+### Metrics
+- **LNST (Lợi nhuận sau thuế):** Use instead of US "Adjusted EPS." VN companies rarely make non-GAAP adjustments.
+- **Doanh thu tài chính:** Track separately — interest income from bank deposits can be significant (10-30% of PBT for cash-rich companies).
+- **Key sector KPIs:** See [vietnam-sectors/SKILL.md](../../financial-analysis/skills/vietnam-sectors/SKILL.md) for sector-specific metrics to track alongside financial results.
+
+### Data Sources
+- BCTC: HOSE/HNX → CafeF → Vietstock. See [vietnam-data-sources.md](../../financial-analysis/skills/references/vietnam-data-sources.md).
+

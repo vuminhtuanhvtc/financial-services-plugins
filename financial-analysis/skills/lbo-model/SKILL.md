@@ -234,3 +234,32 @@ Must return success with zero errors.
 ---
 
 **This skill produces investment banking-quality LBO models by filling templates with correct formulas, proper formatting, and validated calculations. The skill adapts to any template structure while ensuring financial accuracy and professional presentation standards.**
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When building LBO models for Vietnamese targets, apply these modifications:
+
+### Debt Market Differences
+- **Bank debt dominates:** VN leveraged transactions use primarily bank loans (no broad high-yield/mezzanine market). Model term loans from commercial banks, not bonds.
+- **Corporate bond market:** Small and still developing post-2022 defaults. Bond-financed LBOs are rare.
+- **Interest rates:** VN lending rates typically 8-12% (higher than US HY). Use current SBV rates as reference.
+- **Debt covenants:** VN bank covenants are stricter — lower leverage tolerance (3-4x Debt/EBITDA max vs 6-7x US).
+
+### Tax & Returns
+- **Tax shield rate:** 20% CIT (not 21% US). Some targets have 10-17% preferential rates in industrial parks.
+- **Capital gains tax:** 0.1% on selling price for listed stocks; 20% on gains for unlisted M&A exit.
+- **Currency:** All values VND. Foreign PE funds model in USD — note FX assumption for entry/exit.
+
+### Deal Structure
+- **Seller profile:** Often family founders — retention/earnout critical for value preservation.
+- **FOL (Foreign Ownership Limits):** If buyer is foreign, 49% cap applies (30% for banks). Structure as minority or JV.
+- **Due diligence extras:** QSDĐ (land use rights), BHXH compliance, environmental permits. See [vietnam-tax-legal.md](../../financial-analysis/skills/references/vietnam-tax-legal.md).
+- **Regulatory:** SSC approval for listed targets, competition authority (Bộ Công Thương) if market share >50%.
+
+### Validation (VN)
+- Leverage: Max 3-4x Debt/EBITDA (not 5-7x US)
+- IRR targets: Typically 20-25%+ for emerging market risk premium
+- Exit multiples: Use VN sector benchmarks from [vietnam-sectors/SKILL.md](../../financial-analysis/skills/vietnam-sectors/SKILL.md)
+

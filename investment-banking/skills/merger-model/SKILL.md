@@ -106,3 +106,30 @@ Calculate the minimum synergies needed for the deal to be EPS-neutral in Year 1.
 - Synergy phase-in is critical — Year 1 is often only 25-50% of run-rate synergies
 - Don't forget foregone interest income on cash used and new interest expense on debt raised
 - Tax rate on synergies and interest adjustments should match the acquirer's marginal rate
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When building merger models for Vietnamese companies:
+
+### Accounting & EPS
+- **Goodwill treatment:** VAS requires goodwill **amortization** over ≤10 years (US: impairment only). This directly reduces pro forma NI — model goodwill amortization as a real annual P&L charge.
+- **EPS equivalent:** Use LNST/CP (Lợi nhuận sau thuế trên cổ phiếu) instead of US GAAP EPS. VN rarely uses "adjusted EPS."
+- **Tax rate:** 20% CIT standard. Check target and acquirer effective rates — may differ due to industrial park incentives.
+
+### Deal Structure
+- **Cash deals predominate:** All-stock mergers (share swaps) are rare in Vietnam. Most M&A is cash acquisition. Exchange ratio calculations less relevant.
+- **Synergy estimation:** Limited public data on cost/revenue synergies. Estimate conservatively — VN companies have less operational overlap data available.
+- **FOL consideration:** If acquirer is foreign, must comply with 49% ownership limit (30% for banks). May require structuring as partial acquisition or JV.
+
+### Regulatory Approvals
+- **SSC (UBCKNN):** Required for all acquisitions of listed companies.
+- **Competition authority (Bộ Công Thương):** Required if combined market share >50%.
+- **SBV approval:** Required for banking sector M&A.
+- **Timeline:** Approval process typically 3-6 months — model regulatory delay in transaction timeline.
+
+### Valuation
+- Reference [vietnam-data-sources.md](../../financial-analysis/skills/references/vietnam-data-sources.md) for data sources.
+- Precedent transactions: Limited M&A comps public in VN — use CTCK research reports for recent deals.
+

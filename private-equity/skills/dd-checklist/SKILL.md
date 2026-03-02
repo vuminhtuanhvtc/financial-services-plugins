@@ -112,3 +112,31 @@ Automatically add relevant items based on sector:
 - Flag items where the seller is slow to respond — may indicate issues
 - Cross-reference data room contents against the checklist to identify gaps
 - Update the checklist as diligence progresses — it's a living document
+
+---
+
+## 🇻🇳 Vietnam DD Additions
+
+Add these VN-specific DD workstreams:
+
+### Legal & Regulatory
+- **QSDĐ (Land Use Rights):** Verify all land parcels — location, area, remaining term (50-70 yrs), encumbrances, zoning compliance. Land is the #1 DD risk in VN real estate.
+- **Giấy phép kinh doanh:** Verify business licenses are current and cover all operating activities.
+- **FOL compliance:** If target is listed, check current foreign ownership % vs limit.
+- **Related-party transactions:** Extract from TMBS "Giao dịch bên liên quan" — flag material intercompany flows.
+
+### Tax & Labor
+- **Tax compliance:** CIT, PIT, VAT reconciliation. Check for pending tax disputes or assessments.
+- **Transfer pricing (NĐ 132/2020):** If target has related-party transactions, review TP documentation.
+- **BHXH/BHYT/BHTN:** Verify social insurance compliance — underpayment is common and creates backdated liability.
+- **Labor contracts:** Review compliance with Bộ luật Lao động (Labor Code). Check for union obligations.
+
+### Environmental
+- **EIA (Đánh giá tác động Môi trường):** Verify environmental impact assessment is approved by Bộ TNMT.
+- **Waste treatment:** Manufacturing targets — confirm waste discharge permits and compliance.
+
+### Financial
+- **Accounting standard:** VAS — verify with [vas-accounting.md](../../financial-analysis/skills/references/vas-accounting.md) for GAAP bridge items.
+- **Audit quality:** Check which firm audited. Note: not required to be Big4 — verify auditor is SSC-approved.
+- **NOL carry:** VN limits to 5 years — check for expiring losses.
+

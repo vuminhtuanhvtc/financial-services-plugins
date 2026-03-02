@@ -83,3 +83,21 @@ Standard IC memo format:
 - Use the firm's standard memo template if the user provides one
 - Financial tables should tie — check that EBITDA bridges, S&U balances, and returns math is consistent
 - Ask for missing inputs rather than making assumptions on deal terms or returns
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When writing IC memos for Vietnamese deals, add these sections:
+
+### Additional Memo Sections
+- **Regulatory & FDI Risk:** FOL constraints, SSC/SBV approval requirements, sector-specific restrictions. Estimate timeline and probability of approval.
+- **Governance Upgrade Plan:** If target is family-controlled, outline plan to professionalize management (independent board, CFO hire, ERP implementation).
+- **FX Risk:** If fund is USD-denominated, model VND depreciation scenarios (historically 2-3% annual depreciation vs USD).
+
+### Returns Context
+- VN PE IRR targets: 20-25%+ net (higher than US 15-20% due to emerging market premium).
+- Exit routes: IPO (HOSE/HNX listing), strategic sale (often to regional or international buyer), secondary sale.
+- CGT on exit: 0.1% on selling price (listed) or 20% on gain (unlisted).
+- Reference [vietnam-tax-legal.md](../../financial-analysis/skills/references/vietnam-tax-legal.md) for full tax framework.
+

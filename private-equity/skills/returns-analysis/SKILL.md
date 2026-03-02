@@ -114,3 +114,24 @@ Build 3 scenarios:
 - Dividend recaps or interim distributions affect IRR significantly — include if planned
 - Don't forget transaction costs (typically 2-4% of EV) — they reduce Day 1 equity value
 - Tax considerations (asset vs. stock deal, 338(h)(10) election) can materially affect after-tax returns
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+### Tax on Returns
+- **Listed exit:** CGT = 0.1% on selling price (flat, regardless of gain/loss). Much lower than US.
+- **Unlisted exit:** CGT = 20% on documented gain. Ensure proper documentation of cost basis.
+- **Dividends during hold:** 5% PIT for individual investors; 0% for corporate investors receiving dividends.
+- **No 338(h)(10) equivalent:** VN does not have tax election mechanics like US — structure deal accordingly.
+
+### FX Impact
+- Foreign PE funds invest in VND but report in USD. Model FX at entry and exit.
+- VND historically depreciates 2-3% per year vs USD. Include in returns sensitivity analysis.
+- Returns should be presented in both VND and USD terms.
+
+### VN IRR Benchmarks
+- Top-quartile VN PE: 25-30%+ gross IRR (USD)
+- Median VN PE: 15-20% gross IRR (USD)
+- Exit multiples: Use sector benchmarks from [vietnam-sectors/SKILL.md](../../financial-analysis/skills/vietnam-sectors/SKILL.md)
+

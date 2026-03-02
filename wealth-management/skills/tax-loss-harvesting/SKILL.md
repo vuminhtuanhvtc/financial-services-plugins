@@ -102,3 +102,33 @@ After 30+ days, optionally:
 - Mutual fund capital gains distributions in December can create additional harvesting urgency
 - Document everything for tax reporting and compliance
 - Not all losses are worth harvesting — transaction costs and tracking error have real costs
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+VN tax-loss harvesting works **fundamentally differently** from US:
+
+### Key Differences
+| Rule | US | Vietnam |
+|------|----|---------| 
+| Capital gains tax | 15-20% on profit | **0.1% on selling price** (flat, regardless of gain/loss) |
+| Wash sale rule | 30-day restriction | **No wash sale rule** — can sell and rebuy immediately |
+| Short vs long-term rates | Different rates | **No distinction** — same 0.1% flat rate |
+| Loss deduction | $3,000 against ordinary income | **No loss deduction** — losses cannot offset other income |
+| Loss carryforward | Unlimited for investors | **No carryforward** for individual stock investors |
+
+### Implications for TLH Strategy
+- **TLH is much LESS valuable in VN** because CGT is only 0.1% on selling price, not 15-20% on profit.
+- The primary benefit shifts from **tax savings** to **portfolio rebalancing** opportunity.
+- **No wash sale rule** = can sell at loss and immediately rebuy → simpler execution.
+- **Transaction costs matter more:** Brokerage fee (~0.15-0.35%) + CGT (0.1%) = 0.25-0.45% round-trip. This exceeds the tax benefit for small losses.
+
+### ETF Replacement Options (limited in VN)
+| Original | Replacement | Sector |
+|----------|------------|--------|
+| VN30 ETF (E1VFVN30) | VNFIN LEAD ETF | Similar large-cap exposure |
+| Individual stock | Closest sector peer | Limited choices — flag tracking error |
+
+**Bottom line:** In VN, TLH is only worth doing for large positions with significant losses where the portfolio rebalancing benefit justifies the transaction costs. It's NOT the systematic, calendar-driven strategy it is in the US.
+

@@ -113,3 +113,39 @@ Prioritized action items:
 - Social Security timing is a major lever — model start ages of 62, 67, and 70
 - Always stress-test the plan — a plan that only works in the base case isn't a good plan
 - Compliance: ensure recommendations align with suitability/fiduciary standards
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When creating financial plans for Vietnamese clients:
+
+### Retirement (replaces Social Security / 401k / IRA)
+- **BHXH (Bảo hiểm Xã hội):** Mandatory social insurance — both employer (17.5%) and employee (8%) contribute. Pension eligibility: male age 62, female age 60 (gradually increasing).
+- **No 401k/IRA equivalent:** Vietnam has no tax-advantaged retirement accounts. Retirement savings = personal savings + BHXH pension + voluntary insurance.
+- **Retirement income sources:** BHXH pension (typically 45-75% of avg salary), bank deposits, rental income, children's support (cultural factor).
+- **No Roth conversion, no RMDs:** These US concepts do not apply.
+
+### Insurance (replaces Medicare / LTC)
+- **BHYT (Health insurance):** Mandatory 4.5% contribution (3% employer, 1.5% employee). Covers 80-100% of approved costs at public hospitals.
+- **Private health insurance:** Bảo Việt, Prudential, Manulife, AIA — offer supplementary plans for private hospitals.
+- **Life insurance:** Growing market — useful for estate planning and wealth transfer.
+- **LTC insurance:** Does not exist as structured product in VN.
+
+### Tax Considerations
+- **Income tax:** Progressive 5-35% on all income types.
+- **Investment income:** Stock gains = 0.1% on selling price; dividends = 5% flat; bank interest = 5% flat.
+- **Estate tax:** Inheritance/gift tax = 10% on amounts >10 triệu VNĐ (very low threshold — nearly all transfers are taxed).
+- **No capital loss deduction:** Cannot offset investment losses against other income (unlike US $3,000 deduction).
+
+### Investment Products (replaces US products)
+- Cổ phiếu niêm yết (listed stocks on HOSE/HNX/UPCOM)
+- Trái phiếu doanh nghiệp (corporate bonds — caution post-2022 defaults)
+- Chứng chỉ quỹ (mutual fund certificates — VFMVN30, Dragon Capital, VinaCapital)
+- Tiền gửi ngân hàng (bank deposits — 4-6% p.a.)
+- Vàng (gold — culturally significant, SJC gold bars)
+- Bất động sản (real estate — primary wealth storage for Vietnamese HNW)
+
+### Life Expectancy
+- VN average: ~74 years (vs US ~77). Adjust retirement horizon accordingly.
+

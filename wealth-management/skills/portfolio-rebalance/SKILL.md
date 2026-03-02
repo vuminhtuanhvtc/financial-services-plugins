@@ -76,3 +76,28 @@ Optimize which assets are held in which account types:
 - Check for any client-specific restrictions (ESG, concentrated stock, lockups)
 - Document rationale for every trade for compliance records
 - Wash sale rules apply across accounts — coordinate trades across the household
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+### Asset Classes (replaces US SPY/AGG/EFA)
+| VN Asset Class | Instruments | Typical Allocation |
+|---------------|------------|-------------------|
+| Cổ phiếu (Equities) | HOSE/HNX/UPCOM stocks, ETFs (VN30, VNFIN LEAD) | 30-60% |
+| Trái phiếu (Bonds) | Government bonds (TPCP), corporate bonds (caution) | 10-20% |
+| Tiền gửi (Deposits) | Bank term deposits (4-6% p.a.) | 10-30% |
+| Vàng (Gold) | SJC gold bars, gold-linked savings | 5-15% |
+| Bất động sản (Real Estate) | Direct property, REITs (limited) | 10-30% |
+
+### Benchmark
+- **VN-Index** (HOSE) replaces S&P 500 as primary equity benchmark.
+- **VNALL-Index** for broader market including HNX and UPCOM.
+
+### Rebalancing Considerations
+- **No wash sale rule:** Simplifies rebalancing — no 30-day waiting period after selling at a loss.
+- **Transaction costs:** Brokerage 0.15-0.35% + CGT 0.1% = meaningful for frequent rebalancing. Rebalance quarterly or when drift exceeds 5%.
+- **T+2 settlement:** Stock transactions settle T+2 in Vietnam.
+- **Gold allocation:** Culturally significant in VN. SJC gold bars are the standard. Track VN gold premium vs global price.
+- **Bank deposits:** Often used as "safe" allocation — compare rates across banks (Vietcombank, Techcombank, MB, etc.).
+

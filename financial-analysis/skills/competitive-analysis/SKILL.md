@@ -357,3 +357,39 @@ Before finalizing, verify:
 - ✅ All slides have page numbers
 - ✅ Charts are actual embedded PowerPoint objects (not ASCII/text)
 - ✅ Segment tables include EBITDA where available; revenue-only acceptable for private companies
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When analyzing Vietnamese companies or sectors, apply these adjustments. Reference: [vietnam-data-sources.md](../references/vietnam-data-sources.md), [vietnam-sectors/SKILL.md](../vietnam-sectors/SKILL.md).
+
+### Source Quality Hierarchy (Vietnam)
+
+Replace the standard US source hierarchy with:
+1. **BCTC kiểm toán (Annual Reports)** — Audited, highest reliability
+2. **CTCK Research Reports** (SSI, VNDirect, HSC, Vietcap) — Analyst estimates, sector outlook
+3. **Industry associations / Government reports** (VCCI, GSO, Bộ Công Thương) — Market sizing, trends, thay thế McKinsey/Gartner
+4. **VNR500, Forbes Vietnam** — Company rankings, revenue sizing
+5. **CafeF / Vietstock / Simplize** — Financial data aggregation, peer comparison
+6. **News articles** — Verify against primary sources first
+
+### Industry-Defining Metrics (Vietnam Sectors)
+
+| Industry | Key Metrics (VN-specific) |
+|----------|--------------------------|
+| Banking | NIM, CIR, NPL, Cost of Risk, CASA, credit growth quota |
+| Real Estate | Landbank (ha), presale value, NAV/share, QSDĐ remaining term |
+| Consumer/Retail | Same-store growth, revenue/store, inventory days |
+| Steel/Materials | Capacity utilization, HRC-spread, export ratio |
+| Technology | Revenue growth, gross margin, R&D/revenue |
+| Utilities/Pipes | Capacity factor, ASP, volume, PVC price impact |
+
+See [vietnam-sectors/SKILL.md](../vietnam-sectors/SKILL.md) for full peer groups and valuation benchmarks.
+
+### Data Comparability (Vietnam-specific)
+* **Currency:** All figures in VND (tỷ đồng). If comparing with regional peers, note USD/VND rate and date.
+* **Fiscal year:** Most VN companies use Dec 31; verify for each company — some have FY lệch.
+* **P/B and Dividend Yield:** More important in VN than US — VN investors heavily weigh book value and dividends. Always include in comp tables.
+* **SOE vs Private:** Flag ownership structure — SOE companies have governance discount 5-15%.
+

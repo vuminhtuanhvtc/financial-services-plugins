@@ -100,3 +100,27 @@ Standard CIM table of contents:
 - Work with legal on the confidentiality disclaimer and any regulatory disclosures
 - Get management to review for factual accuracy before distribution
 - The CIM sets expectations on valuation — make sure the narrative supports the asking price
+
+---
+
+## 🇻🇳 Vietnam Market Adjustments
+
+When building CIMs for Vietnamese companies:
+
+### Additional CIM Sections (VN-specific)
+- **Quy hoạch & Đất đai:** For RE and industrial companies, include QSDĐ inventory (location, area, remaining term, book value). Land is often the primary value driver.
+- **Regulatory & FOL:** If target may attract foreign buyers, include FOL status, current foreign ownership %, and room available.
+- **Ownership & Governance:** Clearly disclose state ownership (DNNN), family control structures, related-party transactions, and SCIC involvement.
+
+### Market Sizing (Vietnam)
+- Replace TAM/SAM/SOM US methodology with VN-specific sources:
+  - GSO (Tổng cục Thống kê): Census, industry statistics, GDP by sector
+  - VCCI reports: Business landscape, sectoral analysis
+  - Bộ Công Thương: Industry-specific reports and forecasts
+  - CTCK research: SSI, VNDirect, HSC sector overviews
+
+### Financial Presentation
+- **"Quality of Earnings"** → Replace with "BCTC kiểm toán + BCTC soát xét" analysis. Reference latest audited and reviewed financial statements.
+- **Currency:** Present all financials in tỷ VNĐ. Include USD conversion at stated rate for foreign buyer audience.
+- **Accounting:** Note VAS reporting standard. Flag key VAS-IFRS differences that affect comparability. See [vas-accounting.md](../../financial-analysis/skills/references/vas-accounting.md).
+
